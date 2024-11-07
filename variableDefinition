@@ -1,0 +1,39 @@
+//What is variable ?
+
+/*
+
+var/let/const variable = variableDefinition;
+
+let number =10;
+
+
+*/
+
+//In javascript we assign the name of the value as var, let and const.
+
+//example;
+
+//function helloVer(){
+//    var hello = "Hello world"; // function scope
+//    if(true) {
+//        var b = 10;
+//        console.log(b);
+//    }
+//    console.log(hello);
+//}
+
+
+//helloVer();
+
+// var : function scope -- Takes up too much space for RAM
+//let/const : block scope 
+
+// 
+
+//var a = 5;
+//var a = 10;
+//console.log(a);
+
+let b = 5;
+b=5;
+console.log(b);
