@@ -1,0 +1,71 @@
+/*
+? data types
+1.String
+2.Number
+3.Boolean
+4.null
+5.Undefined
+6.Object
+7.Function
+*/
+
+//for string
+//let name ="Huseyin is 33 years old.";
+//console.log(name);
+//console.log(typeof name);
+
+//let number1 = 24;
+
+//console.log(number1);
+//console.log(typeof number1);
+
+//let number1 = 9.7;
+//let number2 = 3.6;
+
+//console.log(number1+number2);
+
+// if you want write together
+
+//let stringer1 = "your age: ";
+//let age = 34;
+
+//console.log(stringer1 + age);
+
+//console.log(5>1);
+
+//Bolean use for true/false
+//let a = 12;
+//let b = 11;
+
+//let total = a+b;
+//console.log(total>20);
+//null is empty 
+
+//let a = null; //empty
+
+//a=19;
+
+//console.log(a);
+
+//let a;
+//console.log(typeof a);
+
+//object
+
+//let person = {
+//    name : "Donald",
+//    surname : "Clover",
+//    age : 34
+//}
+//
+//console.log(person);
+
+//let numbers = [1,2,3,5];
+//console.log(typeof numbers);
+
+let func = function(){
+    console.log("Hello");
+}
+
+func();
+console.log(typeof func);
