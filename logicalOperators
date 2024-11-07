@@ -1,0 +1,42 @@
+//-----------LogicalOperators
+
+/*
+    && : and
+    || : or
+    !  : not
+*/
+
+
+// if you age 22 you are ready for military officer and if you have 3000$ if your healty you are military officer
+
+//let age = 22;
+//let money = 3000;
+//let healty = true;
+
+//console.log(age>21 && money > 2500 && healty==true);
+
+// use || or
+
+//let age = 22;
+//let money = 3000;
+//let healty = false;
+
+// console.log(age>21 && money > 2500 || healty==false);
+
+//console.log(7>3 || 4<3);
+
+//In the OR operator, if one of the two is true, it is true. If there are 27 operations and one of them is true, it gives the true result. If the AND operator catches one false, it makes the whole result false.
+
+//---------not operator---------
+
+//console.log( !(7>5) );
+
+//The answer to this is false because if there is an exclamation mark it is always the opposite.
+
+let age = 24;
+let money = 3000;
+let healty = false;
+let tryAgain = 4;
+
+console.log((money>2700 && tryAgain>3) || (age>20 && healty));
+//The answer to this is true  
