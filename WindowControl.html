@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>homework 4</title>
+        <link rel="stylesheet" href="style-windowcontrol.css">
+        <style>
+
+</style>
+    </head>
+    <body>
+        <div>
+            <iframe src="https://www.duckduckgo.com" name="frame1"></iframe>
+            <div class="controls">
+                <button onclick="goBack('frame1')">Geri</button>
+                <button onclick="goForward('frame1')">İleri</button>
+            </div>
+        </div>
+        <div>
+            <iframe src="https://www.google.com.tr" name="frame2"></iframe>
+            <div class="controls">
+                <button onclick="goBack('frame2')">Geri</button>
+                <button onclick="goForward('frame2')">İleri</button>
+            </div>
+        </div>
+        <script src="js-WindowControl.js"></script>
+    </body>
+</html>
