@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style-FormElements.css">
+</head>
+<body>
+    <h1>Form elements example</h1>
+    <form id="userForm">
+        <label for="username">Name: </label>
+        <input type="text" id="username" name="username"
+            placeholder="Enter name" required>
+        <label for="email">E-posta:</label>        
+        <input type="email" id="email" name="email"
+            placeholder="E-posta enter" required>
+        <label for="gender">gender: </label>
+        <select id="gender" name="gender">
+            <option value="male">Man</option>
+            <option value="female">Woman</option>
+            <option value="other">Other</option>
+        </select>
+        <label for="bio">about</label> 
+        <textarea id="bio" name="bio" rows="4" 
+            placeholder="write yourself about"></textarea>
+        <button type="submit">Send</button>
+        </form>
+        <script src="js-FormElements.js"></script>       
+</body>
+</html>
