@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Format</title>
+</head>
+<body>
+    <h1>JSON Format Example</h1>
+    <div id="json-container"></div>
+
+    <script>
+        const person ={
+            firstName: "Huseyin",
+            lastName: "Susever",
+            age: 35,
+            isStudent: false
+        };
+
+        document.getElementById("json-container").textContent=JSON.stringify(person, null, 2);
+        
+    </script>
+</body>
+</html>
